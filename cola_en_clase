@@ -1,0 +1,21 @@
+class Cola:
+    def __init__(self):
+        self.cola = list()
+
+    def agregar_elementos(self, data):
+        self.cola.append(data)
+
+    def eliminar_primer_elemento(self):
+        self.cola.pop[0]
+
+    
+def __str__(self): # metodo que devuelve los caracteres de la lista
+    return str(self.cola)
+
+cola1 = Cola
+cola1.agregar_elementos(1)
+cola1.agregar_elementos(2)
+cola1.agregar_elementos(3)
+cola1.agregar_elementos(4)
+cola1.agregar_elementos(5)
+print(cola1)
